@@ -54,7 +54,7 @@ const SdFooter = () => {
                   />
                   <button
                     type="submit"
-                    className="w-full sm:w-auto px-6 rounded-md text-white hover:bg-blue-600 py-2 bg-gradient-to-r from-blue-500 to-purple-500 text-transparent"
+                    className="w-full px-2 sm:w-auto md:px-6 rounded-md text-white hover:bg-blue-600 py-2 bg-gradient-to-r from-blue-500 to-purple-500 text-transparent"
                   >
                     Subscribe
                   </button>

@@ -8,7 +8,7 @@ const PricingPlans = () => {
 
   return (
     <div
-      className={`w-full shadow-lg max-w-7xl mx-auto  md:py-12  px-4 sm:px-6 lg:px-1  ${
+      className={`w-full shadow-lg max-w-7xl mx-auto md:py-12 px-4 sm:px-6 lg:px-1 ${
         isDarkMode ? "bg-gray-900 text-white" : "bg-white text-gray-900"
       }`}
     >
@@ -34,7 +34,7 @@ const PricingPlans = () => {
           {plans.map((plan) => (
             <div
               key={plan.name}
-              className={`rounded-xl cursor-pointer ${
+              className={`rounded-xl cursor-pointer flex flex-col h-full ${
                 isDarkMode ? "bg-gray-800" : "bg-white"
               } shadow-lg transform transition-all duration-200 hover:scale-110`}
             >
@@ -49,7 +49,7 @@ const PricingPlans = () => {
                 </div>
               </div>
 
-              <div className="p-6 space-y-4 flex-grow">
+              <div className="p-6 flex-grow">
                 <ul className="space-y-4">
                   {plan.features.map((feature, index) => (
                     <li key={index} className="flex items-start gap-3">
@@ -66,7 +66,7 @@ const PricingPlans = () => {
                 </ul>
               </div>
 
-              <div className="p-6 pt-0">
+              <div className="p-6 mt-auto">
                 <button
                   className={`w-full rounded-lg py-3 px-4 text-sm font-semibold transition-colors duration-200 
                     ${
@@ -84,7 +84,7 @@ const PricingPlans = () => {
           ))}
         </div>
 
-        <div className="text-center p mt-10">
+        <div className="text-center mt-10">
           <p
             className={`text-sm ${
               isDarkMode ? "text-gray-400" : "text-gray-600"
