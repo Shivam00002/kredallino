@@ -9,6 +9,7 @@ export const contentData = {
         description: "Place Order With A Single Click",
         imgurl: "https://blogger.googleusercontent.com/img/a/AVvXsEiJIGWYMcz-AkkXo2gxWhseuCRiKYmffUUB6eRhV0fJ0JdSSXQy2kWd3qQML6q0JWreqflSVZF0jWf0fUhBo8lRhD4NcH_DlCrmFACnCl5AnWbR3B7ajsYaNXnIM0x6hEjFtqjFLLFnref9t30TqQy2rMYhR8Z6Zh64ZS4dsw74wNjdgqi_CV7-FoIILJU",
     },
+
     trail: {
         title: "Trail Target And StopLoss",
         description: "Automatic Target and StopLoss Trailing",
